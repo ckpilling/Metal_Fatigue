@@ -12,6 +12,12 @@ contract WorkingWithVars {
     function setMyBool(bool _myBool) public {
         myBool = _myBool;
     }
+
+    bool public myBool2;
+    
+    function setMyBool2(bool _myBool2) public {
+        myBool2 = _myBool2;
+    }
     
     uint8 public myUint8;
     
